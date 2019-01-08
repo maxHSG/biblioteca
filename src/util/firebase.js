@@ -1,12 +1,12 @@
 import firebase from "firebase/app";
 
 const config = {
-    apiKey: "AIzaSyA-swlloHc9JUxLrHbakBcuPyOh64kKiKQ",
-    authDomain: "biblioteca-66214.firebaseapp.com",
-    databaseURL: "https://biblioteca-66214.firebaseio.com",
-    projectId: "biblioteca-66214",
-    storageBucket: "biblioteca-66214.appspot.com",
-    messagingSenderId: "1088730114285"
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    databaseURL: "YOUR_DATABASE_URL",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID"
   };
 
 firebase.initializeApp(config);
